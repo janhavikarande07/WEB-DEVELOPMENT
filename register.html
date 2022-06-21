@@ -8,7 +8,10 @@
     <FONT COLOR="BLUE"  FACE="GABRIOLA"><h1>REGISTER</h1></FONT>
     
     
-            <form>
+            <form action="try.html" target="_top">
+                <fieldset>
+                    <legend>INFROMATION</legend>
+                    <br>
                 Enter Username : <input type="text" name="name" ><br><br>
 
                 Enter Email-Id : &nbsp;&nbsp;<input type="email" name="email"><br><br>
@@ -39,7 +42,23 @@
 
                 <input type="checkbox" name="l5" value="c++"> C++ <br>
 
-                <input type="checkbox" name="l6" value="C"> C <br>
+                <input type="checkbox" name="l6" value="C"> C <br><br>
+
+           Enter Address : <br>
+           <textarea rows="6" cols="30"></textarea><br><br>
+
+           Select Country : <select name="country">
+            <option>Select</option>
+            <option>USA</option>
+            <option>India</option>
+            <option>France</option>
+            <option>Japan</option>
+           </select><br><br>
+        
+
+           Enter Birthdate : <input type="date" name="bday"><br><br>
+
+           Choose a File : <input type="file" name="file"><br>
 
                     <br>
                     &nbsp;&nbsp;&nbsp; <input type="submit" value="Register">
@@ -48,6 +67,6 @@
             </form>
         
             <p>Already have an Account ? <a href="sample.html">Login</a></p>
-        
+        </fieldset>
     </body>
 </html>
